@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.nerkingames.mineclicker">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <compatible-screens>
+        <screen android:screenSize="large"
+        android:screenDensity="xhdpi" />
+
+
+    </compatible-screens>
+
+
+    <application
+        android:name=".app.App"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".start_activity.StartScreenActivity"
+            android:keepScreenOn="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutActivity.AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SettingActivity.SettingActivity"
+            android:keepScreenOn="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AnimationActivity.AnimationActivity"
+            android:keepScreenOn="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".achievements_activity.AchievementsActivity"
+            android:keepScreenOn="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Game.GameActivity.GameActivity"
+            android:keepScreenOn="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tutorial.TutorialActivity"
+            android:keepScreenOn="true"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

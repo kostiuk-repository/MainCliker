@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">МайнКликер</string>
+    <string name="info_string">
+MineClicker - это игра которая поможет Вам скоротать время. Вы можете играть в поезде, самолете, даже лежа на диване. Мне кажется вы можете играть в неё везде где только захотите. Я даже не знаю, что вам тут написать… Придумайте классное описание и смешные шутки.\n\n
+Разработчики:\n
+Владислав Костюк - Код. Для связи: kostiukvladyslav@gmail.com\n
+Швец Юрий - Дизайн. Для связи: nerkinfeed@gmail.com\n
+За основу была взята флэш игра под названием "GrindCraft". Отдельная благодарность JeTSpice\n\n
+В игре были использованы такие ресурспаки как:\n
+PureBDcraft: bdcraft.net\n
+Triton Resource Pack: ringoster.wixsite.com/triton\n
+Smooth Operator\n
+Faithful\n
+SheWolf Realism\n\n
+Все звуки и музыка взяты с бесплатной библиотеки: freesound.org\n\n
+"Industrious Ferret" Kevin MacLeod (incompetech.com)\n
+"Fireflies and Stardust" Kevin MacLeod (incompetech.com)\n
+Licensed under Creative Commons: By Attribution 3.0 License\n
+http://creativecommons.org/licenses/by/3.0/\n\n
+ОТКАЗ ОТ ОТВЕТСТВЕННОСТИ: Это неофициальное приложение Minecraft Pocket Edition. Это приложение не связано каким-либо образом с Mojang AB. В соответствии с http://account.mojang.com/documents/brand_guidelines\n
+https://account.mojang.com/terms\n\n
+Все файлы, предоставляемые для загрузки в этом приложении предоставляются на условиях свободной лицензии на распространение.\n
+Если вы считаете, что мы нарушили ваши права на интеллектуальную собственность или любые другие соглашения, напишите нам по электронной почте nerkindroidgames@gmail.com, мы постараемся немедленно устранить все нарушения.
+
+
+
+</string>
+
+
+    <string-array name="splashs">
+        <item>Всё полно любви!</item>
+        <item>Великолепный!</item>
+        <item>Привет Россия!</item>
+        <item>Привет Украина!</item>
+        <item>Привет Казахстан!</item>
+        <item>Привет Белорусь!</item>
+        <item>Не кормите\n попугаев авокадо!</item>
+        <item>Уже выпущен!</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hi Felles</string>
+</resources>

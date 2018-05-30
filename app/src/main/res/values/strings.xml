@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">MineClicker</string>
+    <string name="info_string">
+MineClicker - This is a game that will help you pass the time. You can play in a train, plane, even lying on the couch. I think you can play it wherever you want. I don\'t even know what to write here… Come up with a cool description and funny jokes.\n\n
+Developers:\n
+Vladislav Kostyuk- Code. For communicating: kostiukvladyslav@gmail.com\n
+Yurii Shvets - Design. For communicating: nerkinfeed@gmail.com\n\n
+The basis was a flash game called "GrindCraft". Special thanks
+JeTSpice\n\n
+The game used such resource packs as:\n
+PureBDcraft: bdcraft.net
+Triton Resource Pack: ringoster.wixsite.com/triton\n
+Smooth Operator\n
+Faithful\n
+SheWolf Realism\n\n
+All sounds and music are taken from the free library: freesound.org\n\n
+"Industrious Ferret" Kevin MacLeod (incompetech.com)\n
+"Fireflies and Stardust" Kevin MacLeod (incompetech.com)\n
+Licensed under Creative Commons: By Attribution 3.0 License\n
+http://creativecommons.org/licenses/by/3.0/\n\n
+DENIAL OF RESPONSIBILITY: This is NOT a Minecraft Pocket Edition. This application is not linked in any way with Mojang AB. In accordance with\n http://account.mojang.com/documents/brand_guidelines\n
+https://account.mojang.com/terms\n\n
+All files provided for download in this application are provided under the terms of a free distribution license.
+If you believe that we have violated your intellectual property rights or any other agreements, write to us by e-mail nerkindroidgames@gmail.com, we will try to eliminate all violations immediately.
+
+
+
+</string>
+
+    <string-array name="splashs">
+        <item>Absolutely\n no memes!</item>
+        <item>Ask your\n doctor!</item>
+        <item>Awesome community!</item>
+        <item>Best in class!</item>
+        <item>Create!</item>
+        <item>Full of stars!</item>
+        <item>Jump up\n jump up\n and get down!</item>
+        <item>Random splash!</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hi Felles</string>
+</resources>

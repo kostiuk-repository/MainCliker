@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/up_world_chooser"
+    android:layout_width="80dp"
+    android:layout_height="345dp"
+    android:background="@mipmap/kraft_background01"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:id="@+id/up_w_worker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:drawingCacheQuality="auto"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <GridLayout
+            android:id="@+id/all_res"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="17dp"
+            android:clickable="true">
+
+            <FrameLayout
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@mipmap/wood_on"
+                android:drawingCacheQuality="auto">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:background="@mipmap/wheat_seeds_on"
+                android:drawingCacheQuality="auto">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:background="@mipmap/water_on"
+                android:drawingCacheQuality="auto">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_column="1"
+                android:layout_row="1"
+                android:background="@mipmap/dirt_on"
+                android:drawingCacheQuality="auto">
+
+            </FrameLayout>
+        </GridLayout>
+
+        <FrameLayout
+            android:id="@+id/wood_up_worker"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="7dp"
+            android:background="@mipmap/wood_on"
+            android:clickable="true"
+            android:drawingCacheQuality="auto"
+            tools:ignore="RtlHardcoded">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/grass_up_worker"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="7dp"
+            android:background="@mipmap/wheat_seeds_on"
+            android:clickable="true"
+            android:drawingCacheQuality="auto">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/dirt_up_worker"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="7dp"
+            android:background="@mipmap/dirt_on"
+            android:clickable="true"
+            android:drawingCacheQuality="auto">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/water_up_worker"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="3dp"
+            android:background="@mipmap/water_on"
+            android:clickable="true"
+            android:drawingCacheQuality="auto">
+
+        </FrameLayout>
+
+        <Switch
+            android:id="@+id/switch_up_w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawingCacheQuality="auto"
+            android:clickable="true"
+            android:checked="true"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
